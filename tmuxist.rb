@@ -2,10 +2,10 @@ require "formula"
 
 class Tmuxist < Formula
   homepage 'https://github.com/corrupt952/tmuxist'
-  url "https://github.com/corrupt952/tmuxist/releases/download/0.0.3/tmuxist_0.0.3_darwin_amd64.tar.gz"
-  sha256 "7faf3dade64e4ee243d708e49f5e5e7613098fa7240a61981261ae32da43c162"
   head 'https://github.com/corrupt952/tmuxist.git'
-  version '0.0.3'
+  version '0.0.4'
+  url "https://github.com/corrupt952/tmuxist/releases/download/0.0.4/tmuxist_0.0.4_darwin_amd64.tar.gz"
+  sha256 "26ad51925cb18c99b6fd19cdb9f5f05768023ec1e01380a3c836ce4e13035a03"
 
   def install
     bin.install "tmuxist"
