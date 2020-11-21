@@ -3,7 +3,7 @@ require "formula"
 class Tmuxist < Formula
   homepage 'https://github.com/corrupt952/tmuxist'
   head 'https://github.com/corrupt952/tmuxist.git'
-  version '0.0.5'
+  version '0.0.6'
 
   if `uname -s` == 'Darwin'
     url "https://github.com/corrupt952/tmuxist/releases/download/0.0.6/tmuxist_0.0.6_darwin_amd64.tar.gz"
