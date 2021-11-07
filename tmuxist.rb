@@ -5,8 +5,8 @@ class Tmuxist < Formula
   head 'https://github.com/corrupt952/tmuxist.git'
   version '0.0.12'
 
-  os = `uname -s`.chomp.lowercase
-  arch = case `uname -m`.chomp.lowercase
+  os = `uname -s`.chomp.downcase
+  arch = case `uname -m`.chomp.downcase
   when 'aarch64', 'arm64'
     "arm64"
   else
