@@ -15,7 +15,7 @@ class Tmuxist < Formula
 
   url "https://github.com/corrupt952/tmuxist/releases/download/#{version}/tmuxist_#{version}_#{os}_#{arch}.tar.gz"
 
-  if `uname -s` == 'darwin'
+  if os == 'darwin'
     if arch == "arm64"
       sha256 "84985d63aef7a755d03eee4b939ecf44f5090ca69c298e06e84315357960c3a5"
     else
