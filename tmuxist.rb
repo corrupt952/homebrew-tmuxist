@@ -23,9 +23,9 @@ class Tmuxist < Formula
     end
   else
     if arch == "arm64"
-      sha256 "d14c53f0a04d7173d6636839c3a07340ecb35011f837a9a34010f3bfeb01b65e"
+      sha256 "7518960a49e818ce8c06cb294edbe5680ae0a4502dec18ef00f8c74b082ad7c1"
     else
-      sha256 "20ab188e0524962db19dc9a250f154db6a68d2cecbcc36f8a6c60482ba6f1677"
+      sha256 "d14c53f0a04d7173d6636839c3a07340ecb35011f837a9a34010f3bfeb01b65e"
     end
   end
 
