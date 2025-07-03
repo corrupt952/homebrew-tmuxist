@@ -3,7 +3,7 @@ require "formula"
 class Tmuxist < Formula
   homepage 'https://github.com/corrupt952/tmuxist'
   head 'https://github.com/corrupt952/tmuxist.git'
-  version '1.0.0'
+  version '1.1.0'
 
   os = `uname -s`.chomp.downcase
   arch = case `uname -m`.chomp.downcase
@@ -17,15 +17,15 @@ class Tmuxist < Formula
 
   if os == 'darwin'
     if arch == "arm64"
-      sha256 "e2e405bb48020e215e38d609b671ea65452d0569169ea5f02dc92cbb52cbd96e"
+      sha256 "a8ecb71567c0ec7fdeb06bb03aad176ebd19fa16671f1eba415f6b897f1c30b1"
     else
-      sha256 "73a5c901828ba885aea04f3127efa5877949bc47b0a587280c6ea79a24d1131a"
+      sha256 "ad28748f89ef5773cef2295bddb9aa22f591bc1d087deecb10f81434d1bbb4e2"
     end
   else
     if arch == "arm64"
-      sha256 "7518960a49e818ce8c06cb294edbe5680ae0a4502dec18ef00f8c74b082ad7c1"
+      sha256 "bb73ff79ace8b69d58fd56285daee59fe727c226218ff5f76f5bce63e7f212db"
     else
-      sha256 "d14c53f0a04d7173d6636839c3a07340ecb35011f837a9a34010f3bfeb01b65e"
+      sha256 "98296214998296a2e336e254898da6973232332fa72524926d7e182ca4d8ab3e"
     end
   end
 
